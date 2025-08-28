@@ -1,0 +1,66 @@
+
+/* Global styles */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the Bugs/Errors section */
+.error-message h3 {
+  color: red;
+  font-weight: bold;
+}
+
+.error-message p {
+  color: #333;
+  font-size: 16px;
+}
+
+/* Styling for the Optimizations section */
+.analysis-result h3 {
+  color: green;
+  font-weight: bold;
+}
+
+.analysis-result p {
+  color: #333;
+  font-size: 16px;
+}
+
+/* Styling for the formatted code block */
+.formatted-code h3 {
+  font-weight: bold;
+}
+
+.code-block {
+  background-color: #f4f4f4;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 5px;
+}

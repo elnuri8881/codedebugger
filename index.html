@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Analyzer</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Code Analyzer</h1>
+            <p>Paste your code below and let us analyze it for bugs, errors, and optimizations!</p>
+        </header>
+
+        <main>
+            <!-- Textarea for inputting code -->
+            <textarea id="codeInput" placeholder="Paste your code here..." rows="15"></textarea>
+            
+            <!-- Button to trigger the code analysis -->
+            <div class="actions">
+                <button id="analyzeBtn" onclick="analyzeCode()">Analyze Code</button>
+            </div>
+            
+            <!-- Sections to display error and analysis results -->
+            <div id="error" class="error-message"></div>
+            <div id="result" class="analysis-result"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Code Analyzer. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+
+</html>
